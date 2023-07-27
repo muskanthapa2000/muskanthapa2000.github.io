@@ -58,11 +58,22 @@
 
         If you have any inquiries or would like to collaborate, please feel free to reach out. Thank you!</p>
         <!-- <button id="resume-button-2" onclick="openResume2()">Resume</button> -->
-        <a href="RESUME.PDF" target="_blank" id="resume-link-2" class="button"
-        download="RESUME.PDF">Resume<i class='bx bxs-download'></i></a>
+        <li id="resume-button-2">
+          <a href="RESUME.PDF" target="_blank" id="resume-link-2" class="button"
+            download="RESUME.PDF">Resume<i class='bx bxs-download'></i></a>
+        </li>
     </section>
   </div>
   <Script>
+    let resume1 = document.getElementById("resume-button-1").addEventListener("click", NewTab)
+    let resume2 = document.getElementById("resume-button-2").addEventListener("click", NewTab)
+
+    function NewTab() {
+      window.open(
+        "https://drive.google.com/file/d/1-EQyd-l693boXLDpx0krj3_LIGkBcmp9/view?usp=sharing",
+        "_blank"
+      );
+    }
     // function openResume2() {
             // const link = document.createElement('a');
             // link.href = 'RESUME.PDF';
