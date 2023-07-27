@@ -18,8 +18,12 @@
     <a href="#skills" class="nav-link skills">Skills</a>
     <a href="#projects" class="nav-link projects">Projects</a>
     <a href="#contact" class="nav-link contact">Contact</a>
-    <a class="nav-link resume" href="https://drive.google.com/file/d/1-EQyd-l693boXLDpx0krj3_LIGkBcmp9/view?usp=sharing" download="resume 1"><button
-        id="resume-button-1">Resume</button></a>
+    <!-- <a class="nav-link resume" href="RESUME.pdf" download="resume 1"><button
+        id="resume-button-1">Resume</button></a> -->
+        <li id="resume-button-1" class="nav-link resume">
+          <a href="RESUME.pdf" target="_blank" id="resume-link-1" download="RESUME.pdf">Resume
+            <i class='bx bxs-download'></i></a>
+        </li>
 
   </nav>
 
@@ -53,16 +57,19 @@
         requirements and exceed expectations.
 
         If you have any inquiries or would like to collaborate, please feel free to reach out. Thank you!</p>
-        <button id="resume-button-2" onclick="openResume2()">Resume</button>
+        <!-- <button id="resume-button-2" onclick="openResume2()">Resume</button> -->
+        <a href="RESUME.PDF" target="_blank" id="resume-link-2" class="button"
+        download="RESUME.PDF">Resume<i class='bx bxs-download'></i></a>
     </section>
   </div>
   <Script>
-    function openResume2() {
-            const link = document.createElement('a');
-            link.href = 'https://drive.google.com/file/d/1-EQyd-l693boXLDpx0krj3_LIGkBcmp9/view?usp=sharing';
-            link.download = 'https://drive.google.com/file/d/1-EQyd-l693boXLDpx0krj3_LIGkBcmp9/view?usp=sharing';
-            link.click();
-        }
+    // function openResume2() {
+            // const link = document.createElement('a');
+            // link.href = 'RESUME.PDF';
+            // link.download = 'RESUME.PDF';
+            // link.click();
+       
+        // }
   </Script>
   
 
