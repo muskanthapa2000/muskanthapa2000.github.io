@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/static/css/main.622c1891.css",
-    "main.js": "/static/js/main.ea1551b2.js",
+    "main.js": "/static/js/main.8b679292.js",
     "static/js/787.905c7547.chunk.js": "/static/js/787.905c7547.chunk.js",
+    "static/media/Muskan_Profile.jpg": "/static/media/Muskan_Profile.b79bb3e6ce7848a5e64b.jpg",
     "static/media/Voyawander.png": "/static/media/Voyawander.9eac6fbfe8aa2abd8785.png",
     "static/media/Healthcart.png": "/static/media/Healthcart.ff80ee74790874dff57b.png",
     "static/media/Apple.png": "/static/media/Apple.130209fa3c1beb06521e.png",
     "static/media/carver.png": "/static/media/carver.f0de36f3b42333c744b0.png",
-    "static/media/Muskan_Profile.jpg": "/static/media/Muskan_Profile.1137dac349886684d525.jpg",
     "index.html": "/index.html",
     "main.622c1891.css.map": "/static/css/main.622c1891.css.map",
-    "main.ea1551b2.js.map": "/static/js/main.ea1551b2.js.map",
+    "main.8b679292.js.map": "/static/js/main.8b679292.js.map",
     "787.905c7547.chunk.js.map": "/static/js/787.905c7547.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.622c1891.css",
-    "static/js/main.ea1551b2.js"
+    "static/js/main.8b679292.js"
   ]
 }
